@@ -1,4 +1,4 @@
-📊 Sistema de Vendas
+# 📊 Sistema de Vendas
 
 
 Sistema simples para registro de vendas desenvolvido com HTML, CSS e
