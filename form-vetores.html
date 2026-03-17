@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="vetor.css"> 
+    <title>Registrar vendas em JavaScript</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Registrar vendas</h1>
+        
+        <!-- Formulário -->
+        <div class="form-group">
+
+
+            <label for="nome">Digite nome do vendedor: </label>
+            <input type="text" id="nome-vendedor" placeholder="Ex: Pablo">
+
+            <label for="valor">Digite o valor da venda: </label>
+            <input type="number" id="valor" placeholder="Ex: 350" step="any">
+        </div>
+
+        <!-- Botões -->
+        <div class="button-group">
+            <button class="btn-adicionar" onclick="cadastrarVenda()">➕ Adicionar</button>
+            <button class="btn-limpar" onclick="limparLista()">🗑️ Limpar</button>
+        </div>
+
+        <!-- Lista de valores -->
+
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Vendedor</th>
+                <th>Valor</th>
+                <th>Desconto</th>
+                <th>Valor Final</th>
+                <th>Data</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+
+            <tbody id="tabela">
+                
+            </tbody>
+        </table>
+
+    </div>
+
+   <script src="vetor.js"></script>
+</body>
+</html>
